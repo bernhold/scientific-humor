@@ -47,5 +47,8 @@ collections:
   authors:
     output: true
 
-
-
+defaults:
+  - scope:
+      type: authors
+    values:
+      layout: author
