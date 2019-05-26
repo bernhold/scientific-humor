@@ -47,3 +47,7 @@ plugins:
 collections:
   quotes:
     output: true
+
+feed:
+  collections:
+    - quotes
