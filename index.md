@@ -1,8 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
 <script src="assets/global/anchor.min.js"></script>
 <script src="assets/global/jquery-3.4.1.min.js"></script>

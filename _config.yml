@@ -48,6 +48,14 @@ collections:
   quotes:
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "quotes"
+    values:
+      layout: "quote"
+
 feed:
   collections:
     - quotes

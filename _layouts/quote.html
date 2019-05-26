@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% capture seqnum %}{{ quote.path | remove: "_quotes/" | remove: ".md" }}{% endcapture %}
+
+<section id="{{ seqnum }}" style="margin-top:1em">
+{{ content | markdownify }}
+
+<p style="margin-top:0; margin-left:33%;">
+  <em>{{ page.source }}{% if page.context != nil %}, {{ page.context }}{% endif %}{% if page.date != nil %}, {{ page.date | date: "%B %Y" }}{% elsif page.quotedate != nil %}, {{ page.quotedate }}{% endif %}
+</em></p>
+
+</section>
