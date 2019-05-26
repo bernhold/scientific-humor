@@ -40,11 +40,10 @@ So, enjoy...
   <em>{{ quote.source }}{% if quote.context != nil %}, {{ quote.context }}{% endif %}{% if quote.date != nil %}, {{ quote.date | date: "%B %Y" }}{% elsif quote.quotedate != nil %}, {{ quote.quotedate }}{% endif %}
 </em></p>
 
-<hr style="width:50%; margin-left:auto; margin-right:auto">
+{% if forloop.last == false %}
+  <hr style="width:50%; margin-left:auto; margin-right:auto">
+{% endif %}
 
 </section>
 
 {% endfor %}
-
-Note: it would be nice to be able to have a unique anchor for each
-quote and then people could link to them individually.
