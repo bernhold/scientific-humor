@@ -23,6 +23,8 @@ baseurl: "/scientific-humor" # the subpath of your site, e.g. /blog
 url: "https://bernhold.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  bernhold
+linkedin_username: davidbernholdt
+rss: rss
 
 # Build settings
 markdown: kramdown
