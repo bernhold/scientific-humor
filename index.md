@@ -4,6 +4,18 @@
 
 layout: home
 ---
+<script src="assets/global/anchor.min.js"></script>
+<script src="assets/global/jquery-3.4.1.min.js"></script>
+
+<script>
+  $(function() {
+	anchors.options.icon = '🔗';
+	anchors.options.placement = 'left';
+	anchors.options.visible = 'hover';
+	anchors.add('section');
+});
+</script>
+
 This is a collection of humorous quotes from
 scientific and technical talks, classes, etc. that I've attended.
 
@@ -21,7 +33,13 @@ semester, we typed them up and gave him a copy.  He seemed to enjoy it
 Ever since then, I've been trying to take note of the humor in things
 that can often be rather dry.  And now, I'm posting it on the virtual
 equivalent of my office door. (The real thing is too covered with
-cartoons to have room for all of this anyway.) 
+cartoons to have room for all of this anyway.)
+
+Note that every quote has an HTML id attribute, allowing you to link
+directly to a specific quote if you want to.  Just hover your mouse
+over the beginning of the quote and a link symbol (🔗) should appear.
+You can copy the link address, or you can click on it to jump to the
+particular link in your browser.
 
 And thanks to my colleague Sarat Sreepathi for motivating me to get
 this back online, after a long hiatus.
