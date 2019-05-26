@@ -32,8 +32,9 @@ So, enjoy...
 
 {% for quote in site.quotes reversed %}
 
-<section style="margin-top:1em">
+{% capture seqnum %}{{ quote.path | remove: "_quotes/" | remove: ".md" }}{% endcapture %}
 
+<section id="{{ seqnum }}" style="margin-top:1em">
 {{ quote.content | markdownify }}
 
 <p style="margin-top:0; margin-left:33%;">
