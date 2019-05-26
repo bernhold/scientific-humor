@@ -18,10 +18,8 @@ title: Scientific Humor
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of humerous quotes collected from scientific and
   technical talks, classes, etc. that I've attended.
-
-  Also a chance to experiment with Jekyll for blog-style content.
-baseurl: "scientific-humor" # the subpath of your site, e.g. /blog
-url: "https://bernhold.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  bernhold
 
@@ -42,13 +40,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-collections:
-  authors:
-    output: true
-
-defaults:
-  - scope:
-      type: authors
-    values:
-      layout: author
