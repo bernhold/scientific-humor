@@ -17,7 +17,7 @@ This is a collection of humorous quotes from
 scientific and technical talks, classes, etc. that I've attended.
 
 *Note: One of the ground rules for this collection is that I had to
-witness the event.  I'm not looking for outside sumbmissions.
+witness the event.  I'm not looking for outside submissions.
 Consider starting your own list.*
 
 As you may infer from the significant number of quotes from a single
