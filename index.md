@@ -53,7 +53,7 @@ So, enjoy...
 {{ quote.content | markdownify }}
 
 <p style="margin-top:0; margin-left:33%;">
-  <em>{{ quote.source }}{% if quote.context != nil %}, {{ quote.context }}{% endif %}{% if quote.date != nil %}, {{ quote.date | date: "%B %Y" }}{% elsif quote.quotedate != nil %}, {{ quote.quotedate }}{% endif %}
+  <em>{{ quote.source }}{% if quote.context != nil %}, {{ quote.context }}{% endif %}{% if quote.quotedate != nil %}, {{quote.quotedate }}{% elsif quote.date != nil %}, {{ quote.date | date: "%B %Y" }}{% endif %}
 </em></p>
 
 {% if forloop.last == false %}
