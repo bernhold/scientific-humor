@@ -2,7 +2,7 @@
 layout: default
 ---
 <script src="assets/global/anchor.min.js"></script>
-<script src="assets/global/jquery-3.6.4.min.js"></script>
+<script src="assets/global/jquery-3.7.0.min.js"></script>
 
 <script>
   $(function() {
